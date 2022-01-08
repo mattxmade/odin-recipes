@@ -74,7 +74,7 @@ Recipe page styles
   border-radius: 10%;
 }
 
-footer {
+.index-footer {
   position: fixed;
   bottom: 0;
 }
