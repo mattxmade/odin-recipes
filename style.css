@@ -75,6 +75,7 @@ Recipe page styles
 }
 
 .index-footer {
+  margin-bottom: 1rem;
   position: fixed;
   bottom: 0;
 }
