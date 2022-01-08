@@ -3,7 +3,7 @@ Styling setup
 ==================*/
 * {
   box-sizing: border-box;
-  outline: 1px dashed red;
+  /* outline: 1px dashed red; */
 }
 
 html {
@@ -21,7 +21,7 @@ body {
 
 /*================
 Element tag styling
-==================*/
+=================*/
 
 h1 {
   text-align: center;
