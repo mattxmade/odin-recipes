@@ -73,3 +73,8 @@ Recipe page styles
   border: 1rem solid transparent;
   border-radius: 10%;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
