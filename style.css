@@ -1,4 +1,21 @@
 /*================
+Fonts
+==================*/
+@font-face {
+  font-family: 'The Nautigal';
+  src: url(fonts/The_Nautigal/TheNautigal-Bold.ttf) format('truetype');
+  font-weight: bold;
+  src: url(fonts/The_Nautigal/TheNautigal-Regular.ttf) format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url(fonts/Bebas_Neue/BebasNeue-Regular.ttf) format('truetype');
+  font-weight: normal;
+}
+
+/*================
 Styling setup
 ==================*/
 * {
@@ -26,10 +43,15 @@ Element tag styling
 
 h1 {
   text-align: center;
+  font-family: 'The Nautigal', cursive;
+  font-weight: bold;
+  font-size: 9rem;
 }
 
 h2 {
   text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 5rem;
 }
 
 p {
@@ -40,8 +62,17 @@ p {
 /*================
 Index page styling
 ==================*/
-.recipe-gallery {
+.index-h1 {
+  margin: 0;
+}
+
+.recipe-gallery ul {
+  list-style: none;
   text-align: center;
+}
+
+.recipe-gallery li {
+  display: inline-block;
 }
 
 .recipe-gallery img {
@@ -50,6 +81,12 @@ Index page styling
   border-radius: 10%;
   margin: 0.5rem 2%;
   border: 0.5rem solid cadetblue;
+}
+
+.recipe-gallery a {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: normal;
+  font-size: 2.5rem;
 }
 
 /*=======================
@@ -102,6 +139,10 @@ main p {
 
 main ul h4 {
   color: darkslateblue;
+}
+
+main ul a {
+  text-decoration: none;
 }
 
 /*================
