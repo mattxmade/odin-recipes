@@ -61,11 +61,21 @@ footer {
   line-height: 3rem;
   background-color: lightsalmon;
   text-align: center;
+  color: white;
 }
 
 nav {
   position: sticky;
   top: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: black;
 }
 
 /*=======================
@@ -91,7 +101,7 @@ main p {
 }
 
 main ul h4 {
-  color: darkblue;
+  color: darkslateblue;
 }
 
 /*================
