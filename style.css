@@ -1,3 +1,8 @@
+/* Descendant Combinators : 9 */
+/* Group Selectors        : 2 */
+/* Chain Selectors        : 0 */
+/* Psuedo Classes         : 4 */
+
 /*================
 Fonts
 ==================*/
@@ -18,7 +23,7 @@ Fonts
 /*================
 Styling setup
 ==================*/
-* {
+*, *::before, *::after {
   box-sizing: border-box;
   /* outline: 1px dashed red; */
 }
@@ -40,7 +45,6 @@ body {
 /*================
 Element tag styling
 =================*/
-
 h1 {
   text-align: center;
   font-family: 'The Nautigal', cursive;
