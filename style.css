@@ -28,36 +28,13 @@ h1 {
   text-align: center;
 }
 
-p {
-  margin-top: 3rem;
-  padding: 0.6rem;
-}
-
-/*================
-Cross page class styling
-==================*/
-
-nav, 
-footer {
-  height: 3rem;
-  line-height: 3rem;      /* [3 */
-  background-color: lightsalmon;
+h2 {
   text-align: center;
 }
 
-nav {
-  position: sticky;
-  top: 0;
-}
-
-main {
-  margin: 3rem 1rem;
-  padding: 2rem;
-  border-radius: 5rem;
-  overflow: scroll;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  background-color: rgb(255, 224, 177);
+p {
+  margin-top: 3rem;
+  padding: 0.6rem;
 }
 
 /*================
@@ -75,6 +52,48 @@ Index page styling
   border: 0.5rem solid cadetblue;
 }
 
+/*=======================
+Recipe page nav / footer
+=========================*/
+nav, 
+footer {
+  height: 3rem;
+  line-height: 3rem;
+  background-color: lightsalmon;
+  text-align: center;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+/*=======================
+Recipe main content
+=========================*/
+main {
+  margin: 3rem 1rem;
+  padding: 2rem;
+  border-radius: 5rem;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: rgb(255, 224, 177);
+}
+
+main p {
+  width: inherit;
+  text-align: center;
+  margin: 0;
+  padding: 0.2rem;
+  background-color: white;
+  border-radius: 5rem;
+}
+
+main ul h4 {
+  color: darkblue;
+}
+
 /*================
 Recipe page styles
 ==================*/
@@ -90,6 +109,23 @@ Recipe page styles
   border-radius: 10%;
 }
 
+/*================
+Snap to section
+==================*/
+.snaps {
+  color: black;
+  text-decoration: none;
+  width: fit-content;
+  display: block;               /* anchor link only, not whole block : https://stackoverflow.com/a/28864058 */
+}
+
+.snaps:hover {
+  color:goldenrod;
+}
+
+/*================
+Recipe page footer
+==================*/
 .index-footer {
   margin-bottom: 1rem;
   position: fixed;
