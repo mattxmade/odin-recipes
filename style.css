@@ -14,9 +14,10 @@ html {
 body {
   padding: 1rem;
   margin: 0 auto;
-  max-width: 100rem;
+  max-width: calc(100vw - 2rem);
   min-height: 100vh;
   font-size: 1.6rem;      /* equal to 16px */
+  background-color: whitesmoke;
 }
 
 /*================
@@ -36,6 +37,19 @@ p {
 Cross page class styling
 ==================*/
 
+nav, 
+footer {
+  height: 3rem;
+  line-height: 3rem;      /* [3 */
+  background-color: lightsalmon;
+  text-align: center;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
 main {
   margin: 3rem 1rem;
   padding: 2rem;
@@ -43,21 +57,22 @@ main {
   overflow: scroll;
   overflow-x: hidden;
   overflow-y: hidden;
+  background-color: rgb(255, 224, 177);
 }
 
 /*================
 Index page styling
 ==================*/
 .recipe-gallery {
-  width: inherit;
   text-align: center;
 }
 
 .recipe-gallery img {
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  height: auto;
   border-radius: 10%;
   margin: 0.5rem 2%;
+  border: 0.5rem solid cadetblue;
 }
 
 /*================
@@ -69,8 +84,9 @@ Recipe page styles
 
 .recipe-image {
   height: auto;
-  width: 50rem;
-  border: 1rem solid transparent;
+  width: calc(100vw - 4rem);
+  max-width: 50rem;
+  border: 1rem solid steelblue;
   border-radius: 10%;
 }
 
